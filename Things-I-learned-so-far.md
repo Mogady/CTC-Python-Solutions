@@ -11,3 +11,5 @@
 - .join() O(N) is faster than += O(N^2) for strings
     - [Why is ''.join() faster than += in Python?](https://stackoverflow.com/questions/39312099/why-is-join-faster-than-in-python)
     - [Time complexity of += and .join()](https://stackoverflow.com/questions/34008010/is-the-time-complexity-of-iterative-string-append-actually-on2-or-on)
+- set.difference() is O(N) and i guess set(A)^set(B) is O(N^2)
+    - [run time of the set difference](https://stackoverflow.com/questions/48044353/what-is-the-run-time-of-the-set-difference-function-in-python)
