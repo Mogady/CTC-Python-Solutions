@@ -11,7 +11,8 @@ def URLify_N2(string, length):
 
 # print(URLify_N2("Mr John Smith   ", 13))
 
-#O(X) where X is len pd STRING
+#O(X + M) where X is len of STRING
+# M is the len of the new string
 def URLify_X(string, length):
     tmp = []
     for i in range(0, length):
