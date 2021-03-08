@@ -17,7 +17,7 @@ class stack:
 
     
     def pop(self, stack_num):
-        if self.__d[stack_num] != self.__d[stack_num+1]:
+        if self.__d[stack_num] != self.__d.get(stack_num+1, len(self.__array)):
             self.__array.pop(self.__d[stack_num])
             self.__update_dic(stack_num, -1)
             # print(self.__array[self.__d[stack_num]:self.__d.get(stack_num+1, len(self.__array))])
@@ -46,9 +46,10 @@ st.push(1,2)
 st.push(1,3)
 
 st.pop(1)
-st.pop(2)
-st.pop(2)
-st.pop(2)
+st.pop(3)
+st.pop(3)
+st.pop(3)
+st.pop(3)
 st.print_all()
 
 
