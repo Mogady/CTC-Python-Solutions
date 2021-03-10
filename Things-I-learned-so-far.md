@@ -13,3 +13,5 @@
     - [Time complexity of += and .join()](https://stackoverflow.com/questions/34008010/is-the-time-complexity-of-iterative-string-append-actually-on2-or-on)
 - set.difference() is O(N) and i guess set(A)^set(B) is O(N^2)
     - [run time of the set difference](https://stackoverflow.com/questions/48044353/what-is-the-run-time-of-the-set-difference-function-in-python)
+- collections.deque() is better for stacks if we don't care about the internal indexing as it is a double linked lists, but list might be better if the stack size will be small and we intend to access other elemetns inside the stack
+    - [how to implment stacks in python](https://realpython.com/how-to-implement-python-stack/#using-collectionsdeque-to-create-a-python-stack)
